@@ -1,0 +1,78 @@
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+        color: rgba(128, 128, 128, 0.667);
+
+}
+.image
+{
+    width: 300px;
+
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.container p:first-child
+{
+    letter-spacing: 2px;
+text-transform: uppercase;
+
+}
+
+.container h1{
+    color: black;
+    font-weight: bold;
+    width: 200px;
+}
+
+.container p:nth-of-type(2)
+{    width: 250px;
+
+}
+
+.container .price
+{
+    color: rgb(1, 89, 1);
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: fit-content;
+    height: fit-content;
+}
+.container .price p 
+{
+    padding: 0px;
+    margin: 0px;
+}
+.container .price small
+{
+    font-size: 10px;
+        color: rgba(128, 128, 128, 0.667);
+
+}
+
+.container .button 
+{
+    margin-top: 25px;
+}
+.container .button button
+{
+
+    width: 100%;
+    background-color:rgb(8, 82, 8) ;
+    color: white;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+    height: 40px;
+    border: none;
+}

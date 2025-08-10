@@ -1,0 +1,59 @@
+.container
+{
+    background-color: rgba(128, 128, 128, 0.258);
+    padding: 20px;
+
+
+}
+.container > div 
+{
+
+    display: grid;
+        gap: 5px;
+
+    margin-top: 10px;
+
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.one
+{
+    grid-template-columns: 3fr 9fr;
+
+}
+
+.one .nav
+{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: end;
+}
+section
+{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.two
+{
+    grid-template-columns: 8fr 4fr;
+}
+
+.two  section
+{
+    height: 300px;
+}
+.three  section
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+}
