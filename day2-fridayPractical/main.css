@@ -1,0 +1,53 @@
+ .about-section-paragraph-text {
+    color: #757575;
+} 
+
+/* #about-section-paragraph-text {
+    background-color: #eee;
+    color: black;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+    height: 29px;
+}
+.photo {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.card {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    border: 1px solid #eee;
+    height: 29px;
+}
+
+.btn:hover {
+    background-color: #757575;
+}
+
+
+.about
+{
+    width: 95%;
+}
+
