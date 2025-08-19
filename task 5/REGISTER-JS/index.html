@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Document</title>
+</head>
+<body>
+    
+<section class="container">
+<div class="header">
+
+    <h1>Hi, Welcome to Luxira!</h1>
+    <p>Register your account</p>
+</div>
+
+<form>
+
+   <div class="inputs"> 
+    <div class="form-control">
+        <label   for="name">First name</label>
+        <i class="fa-solid fa-user-pen"></i>
+        <input class="data" type="text"   id="name" placeholder="sara"/>
+    </div>
+    <div class="form-control">
+        <label  for="Surname">Surname</label>
+        <i class="fa-solid fa-user-pen"></i>
+        <input class="data" type="text" id="Surname" placeholder="ahmed"/>
+    </div>
+    <div class="form-control">
+        <label  for="email">Mobile number or email address</label>
+<i class="fa-solid fa-envelope"></i>        <input class="data" type="email" id="email" placeholder="sara@gmail.com"/>
+    </div>
+    <div class="form-control">
+        <label  for="gender">Gender</label>
+<i class="fa-solid fa-user"></i>
+<select id="gender" class="data"  >
+    <option value="">Choose gender </option>
+    <option   value="male">Male</option>
+    <option value="female">Female</option>
+</select>
+
+    </div>
+    <div class="form-control">
+        <label  for="Password">Password</label>
+<i class="fa-solid fa-lock"></i>
+        <input class="data" type="password" id="Password" placeholder=" **********"/>
+    </div>
+    <div class="form-control">
+        <label  for="ConfirmPassword"> Confirm Password</label>
+<i class="fa-solid fa-lock"></i>
+        <input  type="password" id="ConfirmPassword" placeholder=" **********"/>
+    </div>
+</div>
+
+    <div class="buttons">
+            <Button id="register">Register</Button>
+<div class="split">
+    <hr/>
+    <p>Or Login With</p>
+    <hr/>
+</div>
+
+            <button class="google">
+                <i class="fa-brands fa-google"></i>
+                Sign up with Google </button>
+    </div>
+</form>
+
+
+
+</section>
+
+
+<section class="card">
+
+</section>
+
+<script src="./script.js"></script>
+</body>
+</html>

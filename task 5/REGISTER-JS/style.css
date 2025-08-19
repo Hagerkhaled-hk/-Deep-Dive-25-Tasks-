@@ -1,0 +1,201 @@
+:root
+{
+    --main-color:#B7B7B7;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.container
+{
+    width: 60vw;
+    overflow: hidden;
+padding: 20px;
+position: relative;
+}
+
+
+.container::before
+{
+    content: "";
+    width: 300px;
+    height: 300px;
+    background-color:#0f4d6882 ;
+    position: absolute;
+    border-radius: 50%;
+    left: -250px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.container::after
+{
+    content: "";
+    width: 400px;
+    height: 400px;
+    background-color:#0f4d6882 ;
+    position: absolute;
+    border-radius: 50%;
+     right: -180px;
+ bottom: -170px;
+ transform: rotateX(20deg);
+ 
+}
+
+.container .header h1
+{
+    margin: 0px;
+}
+.container .header p 
+{
+    font-size: 12px;
+    color: var(--main-color);
+    margin:2px;
+}
+
+.container form  .inputs
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+ width: 100%;
+ gap: 20px;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 45px;
+
+}
+.container form .form-control
+{
+display: flex;
+justify-content:center ;
+align-items:flex-start;
+flex-direction: column;
+position: relative;
+width: 100%;
+margin-top: 15px;
+}
+
+
+.container form .form-control label
+{font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom:8px;
+
+}
+
+.container form .form-control i 
+{
+    position: absolute;
+    font-size: 15px;
+    z-index: 3;
+    top: 57%;
+left: 2%;
+color: var(--main-color);
+
+}
+
+.container form .form-control input,select,option
+{
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    height: 10px ;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.167);
+     padding: 17px 30px;
+box-sizing: border-box;
+}
+
+.container form .form-control input::placeholder
+{
+
+    font-size: 11px;
+ }
+
+.container form  .buttons {
+    width: 100%;
+}
+.container form  .buttons >*
+{
+    margin-bottom: 20px;
+}
+.container form  .buttons button
+{
+
+    width: 100%;
+    border: none;
+    height: 35px;
+    font-weight: bold;
+    background-color:  #0F4D68;
+color: white;
+border-radius: 5px;
+
+
+}
+
+
+.container form  .buttons .split
+{
+font-size: 11px;
+color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.container form  .buttons .split p
+{
+    margin: 0px;
+    padding: 0px;
+    color: var(--main-color);
+}
+
+.container form  .buttons .split hr
+{
+min-width:300px;
+}
+
+ .container form  .buttons .google{
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 12px;
+    color: var(--main-color);
+ }
+
+
+ .card
+ {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.313);
+width:400px;
+padding: 10px;
+text-transform: capitalize;
+letter-spacing: 1.1px;
+overflow: hidden;
+position: relative;
+display: none;
+
+}
+
+ .card::after
+ {
+      content: "";
+    width: 200px;
+    height: 200px;
+    background-color:#0f4d6882 ;
+    position: absolute; 
+    border-radius: 50%;
+     right: -100px;
+ bottom: -100px;
+ transform: rotateX(20deg); 
+ }
