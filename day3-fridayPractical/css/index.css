@@ -1,0 +1,159 @@
+.start {
+    font-family: "Poppins-Regular";
+    padding: 70px 15px;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: auto;
+    width: 100vw;
+    
+
+}
+
+
+.start::-webkit-scrollbar,.start::-webkit-scrollbar-thumb
+{
+    visibility: hidden;
+}
+
+#img {
+    display:flex;
+    flex-direction: row;
+
+
+}
+ #img   .inner-container
+ {
+    flex: 0 0 auto;
+    width: 400px;
+ }
+
+ #img .j  
+{   
+     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+
+#img .j .main-image
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+} 
+
+
+p {
+    font-weight: bold;
+}
+
+.authorImage
+{
+ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.photo_text {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 55px;
+    font-weight: bold;
+}
+
+.text_price {
+    display: flex;
+    position: relative;
+    align-items: center;
+    bottom: 85px;
+    left: 225px;
+    font-weight: bold;
+    gap: 15px;
+}
+
+.current {
+    color: #49BBBD;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.old {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.text {
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 130px;
+    left: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text2 {
+    color: gray;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 150px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text3 {
+    color: gray;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 150px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.finish {
+    width: 100%;
+    height: 70vh;
+    background-color: #252641;
+}
+
+.photo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 200px;
+    right: 100px;
+}
+
+.Start {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
